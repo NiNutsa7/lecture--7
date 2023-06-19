@@ -1,0 +1,38 @@
+.background {
+    background-image: url(../Images/mt-fuji.jpg);
+    width: 100%;
+    height: 1100px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.sun {
+    position: absolute;
+    top: 75px;
+    left: 1000px;
+    width: 150px;
+    height: 150px;
+    animation: sun 10s infinite 2s;
+}
+
+.birds {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    width: 400px;
+    height: 200px;
+    animation: birds 15s infinite 1s;
+}
+
+@keyframes sun {
+  from {top: 0px;}
+  to {top: 100px;}
+
+}
+
+@keyframes birds {
+    from {right: 0px;}
+    to {right: 1100px;}
+}
